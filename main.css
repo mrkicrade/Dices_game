@@ -1,0 +1,26 @@
+/* /* .box {
+	width: 500px;
+	height: 500px;
+	border: 1px solid black;
+} */
+
+#wrapp {
+	width: 484px;
+	height: 550px;
+	border: none;
+	text-align: center;
+	font-size: 36px;
+}
+#player1, #player2 {
+	width: 200px;
+	height: 450px;
+	border: 1px solid black;
+	float: left;
+	font-size: 16px;
+}
+#player1 {
+	margin-right: 80px;
+	
+} 
+
+
