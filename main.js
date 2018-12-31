@@ -24,8 +24,8 @@ function throwlingDice() {
     round++;
     ply1.innerHTML += "** Round " + round + " **" + "<br>";
     ply2.innerHTML += "** Round " + round + " **" + "<br>";
-    ply1.innerHTML += player1 + " " + dice1 + " Zbir:  " + player1sum + "<br>";
-    ply2.innerHTML += player2 + " " + dice2 + " Zbir:  " + player2sum + "<br>";
+    ply1.innerHTML += player1 + " " + dice1 + " Equal:  " + player1sum + "<br>";
+    ply2.innerHTML += player2 + " " + dice2 + " Equal:  " + player2sum + "<br>";
     if (round == 10) {
         clearInterval(x);
         checkWinner();
