@@ -1,26 +1,20 @@
-/* /* .box {
-	width: 500px;
-	height: 500px;
-	border: 1px solid black;
-} */
-
 #wrapp {
-	width: 484px;
+	margin: 50px auto;
+	width: 768px;
 	height: 550px;
 	border: none;
 	text-align: center;
 	font-size: 36px;
 }
-#player1, #player2 {
-	width: 200px;
-	height: 450px;
-	border: 1px solid black;
-	float: left;
-	font-size: 16px;
-}
-#player1 {
-	margin-right: 80px;
-	
-} 
 
+.players {
+	display: flex;
+	justify-content: space-between;
+}
+
+.player {
+	width: 300px;
+	border: 1px solid black;
+	font-size: 40px;
+}
 

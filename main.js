@@ -6,8 +6,9 @@ let player2sum = 0;
 let round = 0;
 
 let wrapp = document.getElementById('wrapp');
-let ply1 = document.getElementById('player1');
-let ply2 = document.getElementById('player2');
+let player = document.querySelector('player');
+let ply1 = document.querySelector('.player1');
+let ply2 = document.querySelector('.player2');
 
 ply1.innerHTML = "<h3>First player is " + "'" + player1 + "'" + "</h3></br>";
 ply2.innerHTML = "<h3>Second player is " + "'" + player2 + "'" + "</h3></br>";
@@ -17,7 +18,6 @@ let x = setInterval(throwlingDice, 1000);
 function throwlingDice() {
     let dice1 = Math.ceil(Math.random() * 6);
     let dice2 = Math.ceil(Math.random() * 6);
-    // player1zbir += kockica1;
     player1sum = player1sum + dice1;
     player2sum = player2sum + dice2;
 
